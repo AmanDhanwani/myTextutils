@@ -58,7 +58,7 @@ function App() {
   };
   return (
     <>
-      <Router>
+      <Router basename="/mytextutils">
         <Navbar mode={mode} toggleMode={toggleMode} />
         <Alert alert={alert}/>
         <Routes>
